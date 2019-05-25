@@ -3,7 +3,13 @@ body{
     text-align: center;
     font-size: 30px;
     font-family: 'Montserrat', sans-serif;
-    
+    border-radius: 300px;
+
+    border: 75px solid green;
+    padding: 30px;
+    width: 85%;
+    margin: auto;
+
 }
 
 h1{
@@ -18,15 +24,18 @@ h2{
 }
 
 .nav_item{
+
     display: inline;
     
     background-color: yellowgreen;
     color: darkgreen;
-    padding: 20px
+    padding: 30px;
 }
 
-.topMenu{
-    margin-top: 20px;
+
+
+#topMenu{
+    margin: 75px;
 }
 
 .nav_item:hover{
@@ -57,16 +66,33 @@ h2{
 
 .description{
     color: aqua;
-    padding: 75px;
-
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-.photos{
-    width: 1024;
-    height: 786;
+#menuItems{
+    border: 5px solid white;
+    padding: 10px;
+    width: 75%;
+    margin: auto;
+    border-radius: 200px;
 }
 
+#today{
+    border: 5px dotted white;
+    padding: 10px;
+    width: 75%;
+    margin: auto;
+    border-radius: 300px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    
+}
 
+.price{
+    color: yellow;
+}
 
-
-
+.text{
+    padding-bottom = 20px;
+}
